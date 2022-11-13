@@ -110,7 +110,7 @@ export const CalendarModal = () => {
             <label>Fecha y hora inicio</label>
             <DatePicker
               selected={start}
-              onChange={(date) => onDateChanged(date, "end")}
+              onChange={(date) => onDateChanged(date, "start")}
               className="form-control"
               dateFormat="Pp"
               showTimeSelect
